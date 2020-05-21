@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <script>
+        (function() {
+            var redirect = sessionStorage.redirect;
+            delete sessionStorage.redirect;
+            if (redirect && redirect != location.href) {
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <title>مستندات شبیه‌سازی دوبعدی فوتبال</title>
+    <link href="https://unpkg.com/docute-fa@0.1.7/dist/docute.css" rel="stylesheet">
+    <link href="style/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute-fa@0.1.7/dist/docute.js"></script>
+    <script>
+        new Docute({
+            target: '#docute',
+            title: '🎓 مستندات شبیه‌سازی دوبعدی فوتبال',
+            highlight: ['cpp', 'bash', 'c', 'markdown', 'python'],
+            router: {
+                mode: 'history'
+            },
+            detectSystemDarkTheme: true,
+            darkThemeToggler: true,
+            sourcePath: '/docs',
+            editLinkBase: 'https://github.com/KN2C2D/rcss-tutorial/tree/master/docs',
+            editLinkText: 'این صفحه را در گیت‌هاب ویرایش کنید.',
+            sidebar: [{
+                title: 'مقدماتی',
+                children: [{
+                    title: 'معرفی',
+                    link: '/2D/FA/'
+                }, {
+                    title: 'مقدمه',
+                    link: '/2D/FA/basic/intro'
+                }, {
+                    title: 'نصب',
+                    link: '/2D/FA/basic/install'
+                }, {
+                    title: 'تیم پایه',
+                    link: '/2D/FA/basic/base'
+                }]
+            }, {
+                title: 'Agent2D',
+                children: [{
+                    title: 'آشنایی کلی',
+                    link: '/2D/FA/agent2d/intro'
+                }, {
+                    title: 'ساخت باینری',
+                    link: '/2D/FA/agent2d/makeBinary'
+                }]
+            }, {
+                title: 'Librcsc',
+                children: [{
+                    title: 'آشنایی کلی',
+                    link: '/2D/FA/librcsc/intro'
+                }, {
+                    title: 'SoccerAgent',
+                    link: '/2D/FA/librcsc/soccer-agent'
+                }, {
+                    title: 'رفتار‌ها',
+                    link: '/2D/FA/librcsc/actions'
+                }, {
+                    title: 'WorldModel',
+                    link: '/2D/FA/librcsc/world-model'
+                }, {
+                    title: 'توپ',
+                    link: '/2D/FA/librcsc/ball'
+                }, {
+                    title: 'ابزار‌های هندسی',
+                    link: '/2D/FA/librcsc/geom-tools'
+                }, {
+                    title: 'ابزار‌های خطایابی',
+                    link: '/2D/FA/librcsc/debugger'
+                }]
+            }, {
+                title: 'ابزار‌ها',
+                children: [{
+                    title: 'SoccerWindow2',
+                    link: '/2D/FA/tools/soccerwindow2'
+                }, {
+                    title: 'Fedit',
+                    link: '/2D/FA/tools/fedit2'
+                }, {
+                    title: 'AutoTest',
+                    link: '/2D/FA/tools/autotest'
+                }, {
+                    title: 'Agent2DStack',
+                    link: '/2D/FA/tools/agent2d-stack'
+                }, {
+                    title: 'Log-Analyzer',
+                    link: '/2D/FA/tools/log-analyzer'
+                }]
+            }, {
+                title: 'ویدیو‌های آموزشی',
+                children: [{
+                    title: 'شیوه‌ی مشارکت',
+                    link: '/2D/FA/video/MakeVideo'
+                }, {
+                    title: 'لیست شماره یک',
+                    link: '/2D/FA/video/VideoList1'
+                }, {
+                    title: 'ویدیو‌های تایید فنی',
+                    link: '/2D/FA/video/qualification'
+                }]
+            }, {
+                title: 'مسابقات',
+                children: [{
+                    title: 'تاریخچه',
+                    link: '/2D/FA/competitions/history'
+                }]
+            }, {
+                title: 'رقابت‌های فنی',
+                children: [{
+                    title: 'Keepaway',
+                    link: '/2D/FA/challenge/keepaway'
+                }]
+            }, {
+                title: 'مشارکت کنندگان',
+                link: '/2D/FA/about-us'
+            }, {
+                title: 'شیوه‌ی مشارکت',
+                link: '/2D/FA/contribute'
+            }, {
+                title: 'پس‌گفتار',
+                link: '/2D/FA/credits'
+            }],
+            footer: `
+          <div style="border-top:1px solid var(--border-color);padding-top:30px;margin: 40px 0;color:#999999;font-size: .9rem;">
+          &copy; ${new Date().getFullYear()}.
+           ساخته شده با ❤️ در
+           <a href="https://kn2c.ir" target="_blank">
+           KN2C Robotics Lab.</a>
+
+            بوسیله‌ی
+            <a href="https://github.com/sadraiiali/docute-fa">داکیوت فارسی</a>
+             </div>
+          `
+        })
+    </script>
+</body>
+
+</html>

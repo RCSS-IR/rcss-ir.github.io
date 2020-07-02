@@ -79,12 +79,12 @@
          7. PlayerParam
          8. Intercept_Table {عارف سیاره:‌ [یوتیوب](https://youtu.be/_l_KJZCF8Zk) [آپارات](https://www.aparat.com/v/W0wEJ?playlist=398223)}
       4. بررسی Strategy <Badge type="warning">در دست ساخت</Badge>
-      5. بررسی BasicMove <Badge type="warning">در دست ساخت</Badge>
+      5. بررسی BasicMove {مریم شکرریز: [یوتیوب](https://youtu.be/ve-wvML2HyA)}
       6. بررسی BasicOffensive 
       7. بررسی دروازه بان
       8. حالات مختلف بازی {علیرضا صدرایی راد:‌ [یوتیوب](https://youtu.be/dYAtq6pxqQI) [آپارات](https://www.aparat.com/v/mGB84)}
       9. بررسی SetPlay <Badge type="warning">در دست ساخت</Badge>
-      10. استفاده از دیباگر و لاگر {تیم KN2C: [یوتیوب](https://www.youtube.com/watch?v=A34C0YdV2UM) [آپارات](https://www.aparat.com/v/3aNor)}
+      10. استفاده از دیباگر و لاگر {تیم KN2C: [یوتیوب](https://youtu.be/R_NZYA5aVRg) [آپارات](https://www.aparat.com/v/3aNor)}
 
    6. ##### بیس Agent2D پیشرفته
 

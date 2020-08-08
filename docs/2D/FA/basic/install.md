@@ -187,7 +187,7 @@ cd agent2d-x.x.x/
 در نهایت برای ساخت فایل اجرایی آن را Build کنید. دقت کنید در این مرحله نیازی به نصب نیست.
 
 ```bash
-./configure CXXFLAGS='-std=c++05'
+./configure CXXFLAGS='-std=c++03'
 make
 ```
 

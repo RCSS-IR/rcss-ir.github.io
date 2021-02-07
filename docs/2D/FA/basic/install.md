@@ -136,6 +136,13 @@ sudo make install
 rcssmonitor
 ```
 
+
+*  در صورتی که در زمان نصب با خطای The Qt5Core library >= 5.0.0 could not be found مواجه شدید. از دستور زیر استفاده کنید.
+
+```bash
+sudo apt install qtbase5-dev
+```
+
 </br></br></br>
 
 <Note type="tip" label=""> 

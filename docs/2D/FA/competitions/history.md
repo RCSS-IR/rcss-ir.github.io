@@ -7,7 +7,7 @@
 1. [RoboCup](https://www.robocup.org/)
 2. [IranOpen](http://iranopen2020.ir/)
 3. [NasirCup](http://nasircup.kn2c.ir)
-4. [SirazOpen](https://t.me/s/shirazopen)
+4. [ShirazOpen](https://t.me/s/shirazopen)
 5. OnlineCompetition
 
 <h2 style="text-align:center">RoboCup</h2>
@@ -45,7 +45,7 @@
 | 2020 |         |         |       |        |             |
 | 2019 | -       | -       | -     | -      | -           |
 | 2018 | CYRUS   | Miracle | Razi  | Apollo | KN2C/Namira |
-| 2017 | Miracle |         |       |        |             |
+| 2017 | Miracle | Nexus 2D| Razi  |        |             |
 | 2016 |         |         |       |        |             |
 | 2015 |         |         |       |        |             |
 | 2014 |         |         |       |        |             |

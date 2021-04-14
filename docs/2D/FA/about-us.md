@@ -105,5 +105,4 @@
 
 و با تشکر از:
 
-[MortezaNoohpisheh](https://github.com/MortezaNoohpisheh)
 [MasoudAlavi](https://github.com/MasoudAlavi)

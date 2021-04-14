@@ -91,6 +91,16 @@
             gitlab="arefsa"
             internet="">
     </AvatarMini>
+    <AvatarMini 
+        img="/docs/2D/FA/img/people/morteza-nohpishe.jpg" 
+        firstName="مرتضی"
+        lastName="نوح پیشه"
+        telegram="MortezaNoohpisheh"
+        email="Morteza.noohpisheh@gmail.com"
+        linkedin="morteza-noohpisheh-27469987"
+        github="MortezaNoohpisheh"
+        >
+    </AvatarMini>
 </div>
 
 و با تشکر از:

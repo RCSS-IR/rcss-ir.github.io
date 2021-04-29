@@ -4,77 +4,7 @@
     <meta charset="UTF-8">
     <title>RoboCup Soccer Simulation</title>
     <link href="Front/style/main.css" rel="stylesheet">
-    <style>
-        body {
-            color: #267810;
-            overflow: hidden;
-        }
-
-        body a {
-            color: #267810 !important;
-            font-weight: bold;
-        }
-
-
-
-        #myVideo {
-            position: absolute;
-            filter: blur(4px);
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -2;
-            transform: translateX(-50%) translateY(-50%);
-        }
-
-        .background {
-            overflow-x: hidden;
-            overflow-y: hidden;
-            position: absolute;
-            top: 0px;
-            overflow: hidden;
-            width: 100% !important;
-            height: 100% !important;
-            z-index: -2;
-            background-size: 22px 22px;
-        }
-
-        .overlay {
-            background-color: rgba(0, 0, 0, 0.3);
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            top: 0;
-
-        }
-
-        .split {
-            background-color: #267810;
-        }
-        @media only screen and (max-width: 1000px) {
-            .title-lg {
-                display: none!important;
-            }
-            .title-md {
-                display: flex!important;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                margin: 0!important;
-            }
-            .documentation a{
-                display: block;
-                width: 100%;
-                margin-left: 0;
-                margin-right: 0;
-                padding-left: 0;
-                padding-right: 0;
-            }
-        }
-    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 <body>
 <div class="background">
@@ -84,26 +14,39 @@
     </video>
     <div class="overlay"></div>
 </div>
-<div>
-<div class="title-lg">
-    <div class="bg"></div>
-    <h1>Robocup Soccer Simulation</h1>
-    <div class="split"></div>
-    <h1 style="direction: rtl">شبیه‌سازی فوتبال روبوکاپ</h1>
+<div class="main">
+    <div class="main-content">
+        <div class="title-lg">
+            <div class="bg"></div>
+            <h1>Robocup Soccer Simulation</h1>
+            <div class="split"></div>
+            <h1 style="direction: rtl">شبیه‌سازی فوتبال روبوکاپ</h1>
+        </div>
+        <div class="title-md" style="z-index: 3;">
+            <h1>Robocup Soccer Simulation</h1>
+            <hr style="background-color: #267810">
+            <h1 style="direction: rtl">شبیه‌سازی فوتبال روبوکاپ</h1>
+        </div>
+        <div class="documentation" style="text-align: center; z-index: 3">
+            <a href="2D/FA">مستندات شبیه‌سازی دوبعدی فوتبال</a>
+            <a href="http://aparat.com/RCSS.IR">آپارات</a>
+            <a href="https://www.youtube.com/channel/UCTBjTpbgmLBFAj672tVeLyQ">یوتیوب</a>
+            <a href="https://t.me/SoccerSim2D">کانال و گروه تلگرام</a>
+        </div>
+    </div>
+    <div class="latest-workshop">
+        <a href="https://eseminar.tv/wb26412" target="_blank">
+            <div class="card">
+                <div class="header-img">
+                    <img width="400" src="/Front/img/iranopen-workshop.jpg" alt="IranOpen's Workshop Image">
+                </div>
+                <div class="title">
+                    ثبت نام کارگاه
+                </div>
+            </div>
+        </a>
+    </div>
 </div>
-<div class="title-md" style="z-index: 3;">
-    <h1>Robocup Soccer Simulation</h1>
-    <hr style="background-color: #267810">
-    <h1 style="direction: rtl">شبیه‌سازی فوتبال روبوکاپ</h1>
-</div>
-<div class="documentation" style="text-align: center; z-index: 3">
-    <a href="2D/FA">مستندات شبیه‌سازی دوبعدی فوتبال</a>
-    <a href="http://aparat.com/RCSS.IR">آپارات</a>
-    <a href="https://www.youtube.com/channel/UCTBjTpbgmLBFAj672tVeLyQ">یوتیوب</a>
-    <a href="https://t.me/SoccerSim2D">کانال و گروه تلگرام</a>
-</div>
-</div>
-
 
 </body>
 </html>

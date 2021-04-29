@@ -1,1 +1,206 @@
-@import"https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css";@keyframes gradientBG{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}body{margin:0;width:100%;height:100vh;font-family:"Shabnam",sans-serif;color:#343a40;background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size:400% 400%;animation:gradientBG 15s ease infinite;display:flex;justify-content:center;align-items:center;flex-direction:column}body a{padding:10px;text-decoration:none;background-color:#fff;color:#343a40;border-radius:4px;margin:10px;display:inline-flex}body .title-lg{position:relative;display:inline-flex;padding:.1rem 2rem;justify-content:center;align-items:center}body .title-lg .split{width:2px;background-color:#343a40;height:5rem;z-index:2;margin:0 12px;border-radius:10px;transform:rotate(10deg)}body .title-lg .bg{position:absolute;height:100%;width:100%;top:0;background-color:#fdfdff;z-index:0;box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);border-radius:4px}body .title-lg h1{z-index:2}body .title-md{display:none;text-align:center;margin:10px;padding:10px;border-radius:4px;background-color:#fff !important}body .title-md hr{z-index:2;width:100px}@media only screen and (max-width: 832px){body .title-lg{display:none}body .title-md{display:flex;justify-content:center;align-items:center;flex-direction:column}}/*# sourceMappingURL=main.css.map */
+@import url("https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css");
+@keyframes gradientBG {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+html {
+  font-size: 16px;
+}
+
+/* Main styles */
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "Shabnam", sans-serif;
+  font-size: 16px;
+  color: #343a40;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body #myVideo {
+  position: absolute;
+  filter: blur(4px);
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -2;
+  transform: translateX(-50%) translateY(-50%);
+}
+body .background {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -2;
+  background-size: 22px 22px;
+}
+body .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+body .split {
+  background-color: #267810;
+}
+body .card {
+  border-radius: 4px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  overflow: hidden;
+  position: relative;
+  min-width: 400px;
+  top: 0;
+  transition: all 200ms ease;
+  border: 2px solid white;
+}
+body .card .title {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+body .card:hover {
+  top: -5px;
+  border: 2px solid wheat;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 35px;
+}
+body .main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+body .main .main-content a {
+  padding: 10px;
+  text-decoration: none;
+  background-color: white;
+  color: #343a40;
+  border-radius: 4px;
+  margin: 10px;
+  display: inline-flex;
+}
+body .main .main-content .title-lg {
+  position: relative;
+  display: inline-flex;
+  padding: 2px 4px;
+  justify-content: center;
+  align-items: center;
+}
+body .main .main-content .title-lg .split {
+  width: 2px;
+  background-color: #343a40;
+  height: 80px;
+  z-index: 2;
+  margin: 0 12px;
+  border-radius: 10px;
+  transform: rotate(10deg);
+}
+body .main .main-content .title-lg .bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: #fdfdff;
+  z-index: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+body .main .main-content .title-lg h1 {
+  z-index: 2;
+}
+body .main .main-content .title-md {
+  display: none;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white !important;
+}
+body .main .main-content .title-md hr {
+  z-index: 2;
+  width: 100px;
+}
+body .main .latest-workshop {
+  margin: 20px;
+}
+
+@media (max-width: 771px) {
+  .title-lg {
+    display: none !important;
+  }
+
+  .title-md {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .documentation a {
+    width: calc(100% - 40px);
+    background: white !important;
+    justify-content: center;
+    color: #939393 !important;
+    font-weight: bolder !important;
+  }
+}
+@media (max-width: 427px) {
+  .latest-workshop {
+    width: 100%;
+  }
+
+  .card {
+    min-width: unset !important;
+    animation: border 10s ease infinite;
+  }
+  .card .title {
+    text-decoration: none !important;
+  }
+  @keyframes border {
+    0% {
+      border: 2px solid white;
+    }
+    50% {
+      border: 2px solid green;
+    }
+    100% {
+      border: 2px solid white;
+    }
+  }
+
+  .header-img {
+    position: relative;
+    width: 100%;
+    background-image: url("/Front/img/iranopen-workshop.jpg");
+    background-size: cover;
+  }
+  .header-img:after {
+    content: "";
+    display: block;
+    padding-bottom: 80%;
+  }
+  .header-img img {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

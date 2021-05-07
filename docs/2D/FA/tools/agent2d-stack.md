@@ -19,7 +19,7 @@ sudo apt-get update && sudo apt-get install -y g++ build-essential libboost-all-
 2. ابزار را در سیستم خود Clone کنید.
 
 ```bash
-git clone git@github.com:KN2C2D/agent2d-stack.git && cd agent2d-stack
+git clone https://github.com/KN2C2D/agent2d-stack.git && cd agent2d-stack
 ```
 
 3. حال با دستور زیر تیم پایه و کتابخانه آن Build می‌شوند.

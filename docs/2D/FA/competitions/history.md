@@ -40,24 +40,25 @@
 
 <h2 style="text-align:center">IranOpen</h2>
 
-| Year | First   | Second  | Third | Fourth | Challenge   |
-| ---- | ------- | ------- | ----- | ------ | ----------- |
-| 2020 |         |         |       |        |             |
-| 2019 | -       | -       | -     | -      | -           |
-| 2018 | CYRUS   | Miracle | Razi  | Apollo | KN2C/Namira |
-| 2017 | Miracle | Nexus 2D| Razi  |        |             |
-| 2016 |         |         |       |        |             |
-| 2015 |         |         |       |        |             |
-| 2014 |         |         |       |        |             |
-| 2013 |         |         |       |        |             |
-| 2012 | Marlik  | Riton   |Axiom  |        |             |
-| 2011 |         |         |       |        |             |
-| 2010 |         |         |       |        |             |
-| 2009 |         |         |       |        |             |
-| 2008 | Nemesis | BLUE    |       |        |             |
-| 2007 |         |         |       |        |             |
-| 2006 |         |         |       |        |             |
-| 2005 |         |         |       |        |             |
+| Year | First   | Second  | Third      | Fourth  | Challenge   |
+| ---- | ------- | ------- | ---------- | ------  | ----------- |
+| 2021 | PYRUS   | Yushan  | Fra-United | Quantum | Perspolis   |
+| 2020 |         |         |            |         |             |
+| 2019 | -       | -       | -          | -       | -           |
+| 2018 | CYRUS   | Miracle | Razi       | Apollo  | KN2C/Namira |
+| 2017 | Miracle | Nexus 2D| Razi       |         |             |
+| 2016 |         |         |            |         |             |
+| 2015 |         |         |            |         |             |
+| 2014 |         |         |            |         |             |
+| 2013 |         |         |            |         |             |
+| 2012 | Marlik  | Riton   |Axiom       |         |             |
+| 2011 |         |         |            |         |             |
+| 2010 |         |         |            |         |             |
+| 2009 |         |         |            |         |             |
+| 2008 | Nemesis | BLUE    |            |         |             |
+| 2007 |         |         |            |         |             |
+| 2006 |         |         |            |         |             |
+| 2005 |         |         |            |         |             |
 
 
 <h2 style="text-align:center">NasirCup</h2>

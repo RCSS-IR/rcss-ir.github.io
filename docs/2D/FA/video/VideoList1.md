@@ -23,7 +23,7 @@
    4. آشنایی با ترمینال {مرتضی نوح پیشه: [یوتیوب](https://youtu.be/JGLkl3GiR6Y) [آپارات](https://www.aparat.com/v/1WIFA)}
    5. دستورات مقدماتی ترمینال{مرتضی نوح پیشه: [یوتیوب](https://youtu.be/YUJLuWfL53I) [آپارات](https://aparat.com/v/Hv4Qb)}
    6. نصب نرم افزار
-   7. آشنایی با ادیتور متن
+   7. آشنایی با ادیتورهای متن در لینوکس{فرناز خادمی: [یوتیوب](https://youtu.be/B9a4fcGWdfM) [آپارات](https://www.aparat.com/v/kXIND)}
    8. کامپایل نمودن یک برنامه C++{فرناز خادمی: [یوتیوب](https://youtu.be/agBz2DI1GMM) [آپارات](https://aparat.com/v/vo71K)}
 
 2. ### برنامه نویسی

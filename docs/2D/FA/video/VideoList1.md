@@ -22,8 +22,8 @@
    3. حل مشکلات نصب
    4. آشنایی با ترمینال {مرتضی نوح پیشه: [یوتیوب](https://youtu.be/JGLkl3GiR6Y) [آپارات](https://www.aparat.com/v/1WIFA)}
    5. دستورات مقدماتی ترمینال{مرتضی نوح پیشه: [یوتیوب](https://youtu.be/YUJLuWfL53I) [آپارات](https://aparat.com/v/Hv4Qb)}
-   6. {فرناز خادمی: [یوتیوب](https://youtu.be/cVzzRMYeJQw) [آپارات](https://aparat.com/v/GBryi)}نصب نرم افزار در سیستم عامل لینوکس
-   7. آشنایی با ادیتور متن
+   6. نصب نرم افزار در سیستم عامل لینوکس {فرناز خادمی: [یوتیوب](https://youtu.be/cVzzRMYeJQw) [آپارات](https://aparat.com/v/GBryi)}
+   7. آشنایی با ادیتورهای متن در لینوکس{فرناز خادمی: [یوتیوب](https://youtu.be/B9a4fcGWdfM) [آپارات](https://www.aparat.com/v/kXIND)}
    8. کامپایل نمودن یک برنامه C++{فرناز خادمی: [یوتیوب](https://youtu.be/agBz2DI1GMM) [آپارات](https://aparat.com/v/vo71K)}
 
 2. ### برنامه نویسی

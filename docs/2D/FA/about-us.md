@@ -102,7 +102,7 @@
         >
     </AvatarMini>
     <AvatarMini 
-        img="https://media-exp1.licdn.com/dms/image/C4E03AQEFovl_6AT5yA/profile-displayphoto-shrink_200_200/0/1609358826827?e=1631145600&v=beta&t=BUZacYqp7Wq7zaxjpiKZKQmmNMVUF8VcCCEmPDHi5k0" 
+        img="/docs/2D/FA/img/people/unknown-avatar.png" 
         firstName="فرناز"
         lastName="خادمی"
         telegram="Farnaz_khademii"

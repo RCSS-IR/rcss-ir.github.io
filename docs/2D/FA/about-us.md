@@ -108,8 +108,7 @@
         telegram="Farnaz_khademii"
         email="Khademifarnaz4@gmail.com"
         linkedin="farnaz-khademi-b1810713a"
-        github="farnazkhademi"
-        >
+        github="farnazkhademi">
     </AvatarMini>
 </div>
 

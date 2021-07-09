@@ -92,13 +92,23 @@
             internet="">
     </AvatarMini>
     <AvatarMini 
-        img="/docs/2D/FA/img/people/morteza-nohpishe.jpg" 
+        img="https://avatars.githubusercontent.com/u/71700441?v=4" 
         firstName="مرتضی"
         lastName="نوح پیشه"
         telegram="MortezaNoohpisheh"
         email="Morteza.noohpisheh@gmail.com"
         linkedin="morteza-noohpisheh-27469987"
         github="MortezaNoohpisheh"
+        >
+    </AvatarMini>
+    <AvatarMini 
+        img="https://media-exp1.licdn.com/dms/image/C4E03AQEFovl_6AT5yA/profile-displayphoto-shrink_200_200/0/1609358826827?e=1631145600&v=beta&t=BUZacYqp7Wq7zaxjpiKZKQmmNMVUF8VcCCEmPDHi5k0" 
+        firstName="فرناز"
+        lastName="خادمی"
+        telegram="Farnaz_khademii"
+        email="Khademifarnaz4@gmail.com"
+        linkedin="farnaz-khademi-b1810713a"
+        github="farnazkhademi"
         >
     </AvatarMini>
 </div>

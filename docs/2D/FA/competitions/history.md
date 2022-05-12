@@ -42,16 +42,17 @@
 
 | Year | First   | Second  | Third      | Fourth  | Challenge   |
 | ---- | ------- | ------- | ---------- | ------  | ----------- |
-| 2021 | PYRUS   | Yushan  | Fra-United | Quantum | Perspolis   |
+| 2022 | Yushan  | PYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |BeyondAlice |HfutEngine| Perspolis![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png),MRL-SSim![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |
+| 2021 | PYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   | Yushan  | Fra-United | Quantum![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) | Perspolis![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |
 | 2020 |         |         |            |         |             |
 | 2019 | -       | -       | -          | -       | -           |
-| 2018 | CYRUS   | Miracle | Razi       | Apollo  | KN2C/Namira |
-| 2017 | Miracle | Nexus 2D| Razi       |         |             |
+| 2018 | CYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   | Miracle | Razi       | Apollo  | KN2C/Namira |
+| 2017 | Miracle | Nexus2D![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)| Razi![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)       |         |             |
 | 2016 |         |         |            |         |             |
 | 2015 |         |         |            |         |             |
 | 2014 |         |         |            |         |             |
 | 2013 |         |         |            |         |             |
-| 2012 | Marlik  | Riton   |Axiom       |         |             |
+| 2012 | Marlik![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)  | Riton![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |Axiom![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)       |         |             |
 | 2011 |         |         |            |         |             |
 | 2010 |         |         |            |         |             |
 | 2009 |         |         |            |         |             |

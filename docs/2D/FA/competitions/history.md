@@ -84,6 +84,11 @@
 | ---- | ------- | ------- | ----- | ------ | ----------- |
 | 2018 | CYRUS   | Razi    | KN2C   | -      | -           |
 
+<h2 style="text-align:center">SirazOpen Starter League</h2>
+| Year | First   | Second  | Third | Fourth | Challenge   |
+| ---- | ------- | ------- | ----- | ------ | ----------- |
+| 2018 | AtomicEnergy   | 4KM    | Spark   | -      | -           |
+
 
 <h2 style="text-align:center">RemoteCup-Major</h2>
 

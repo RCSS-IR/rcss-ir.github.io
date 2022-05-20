@@ -46,7 +46,7 @@
 | 2022 | Yushan![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)  | PYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |BeyondAlice![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png) |HfutEngine![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)| Perspolis![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png),MRL-SSim![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |
 | 2021 | PYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   | Yushan![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)  | Fra-United | Quantum![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) | Perspolis![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |
 | 2020 |         |         |            |         |             |
-| 2019 | -       | -       | -          | -       | -           |
+| 2018 (Asia Pacefic) | CYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)       | OXSY       | FRA-UNIted          | -       | -           |
 | 2018 | CYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   | Miracle![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png) | Razi![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)       | Apollo![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)  | KN2C![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)/Namira![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) |
 | 2017 | Miracle![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png) | Nexus2D![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)| Razi![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)       |         |             |
 | 2016 |         |         |            |         |             |
@@ -66,9 +66,10 @@
 
 | Year | First   | Second  | Third | Fourth | Challenge   |
 | ---- | ------- | ------- | ----- | ------ | ----------- |
-| [2022] | AEteam    |  Cyrus   | DreamTeam | Cyrus-girls  |  GhoGhnos/Emperatour/Cyrus-girls/Hades2D           |
-| [2021] |  CYRUS  |  Hades2D   | Austras2D   | AE TEAM      | -           |
-| [2018] |     |     |  |   |  -           |
+| 2022 | AEteam    |  Cyrus   | DreamTeam | Cyrus-girls  |  GhoGhnos/Emperatour/Cyrus-girls/Hades2D           |
+| 2021 |  CYRUS  |  Hades2D   | Austras2D   | AE TEAM      | -           |
+| 2018 (Asia Pacific) |  AEteam   |  Cyrus   | MS2D |   |  -           |
+| 2018 |     |     |  |   |  -           |
 
 
 <h2 style="text-align:center">NasirCup</h2>
@@ -82,14 +83,14 @@
 
 
 
-<h2 style="text-align:center">OnlineCompetition-MajorCup</h2>
+<h2 style="text-align:center">RemoteCup-Major</h2>
 
 | Year | First | Second | Third | Fourth | Challenge |                             Logs                             |                           Document                           |
 | ---- | ----- | ------ | :---: | :----: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2020 | Cyrus | Namira |   -   |   -    |     -     | [Click](https://drive.google.com/drive/folders/1ZNw3prJlu0C_qYtJ6_e5mNZ9CJJY9Sxh?usp=sharing) | [Click](https://docs.google.com/document/d/11f_hIdVH9MmsixM-4S1NVTYMuzJ03SNo96ohSL2nEL0/edit) |
+| 2020 (Instead of IranOpen) | Cyrus | Nexus |   Mars   |   -    |     -     | [Click](https://github.com/RCSS-IR/RemoteCup_2020_1) | [Click](https://docs.google.com/document/d/11f_hIdVH9MmsixM-4S1NVTYMuzJ03SNo96ohSL2nEL0/edit) |
 
-<h2 style="text-align:center">OnlineCompetition-StarterCup</h2>
+<h2 style="text-align:center">RemoteCup-StarterCup</h2>
 
 | Year | First |    Second    | Third | Fourth | Challenge |                             Logs                             |                           Document                           |
 | :--: | :---: | :----------: | :---: | :----: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2020 | Cyrus | AtomicEnergy |   -   |   -    |     -     | [Click](https://drive.google.com/drive/folders/1ZNw3prJlu0C_qYtJ6_e5mNZ9CJJY9Sxh?usp=sharing) | [Click](https://docs.google.com/document/d/11f_hIdVH9MmsixM-4S1NVTYMuzJ03SNo96ohSL2nEL0/edit) |
+| 2020 (Instead of IranOpen) | Cyrus | AtomicEnergy |   MS2D   |   -    |     -     | [Click](https://github.com/RCSS-IR/RemoteCup_2020_1) | [Click](https://docs.google.com/document/d/11f_hIdVH9MmsixM-4S1NVTYMuzJ03SNo96ohSL2nEL0/edit) |

@@ -80,7 +80,9 @@
 | [2017](http://nasircup.kn2c.ir/2017/) | Oxsy    | Fury    | AETeam1 | Nexus2D  |  -           |
 
 <h2 style="text-align:center">SirazOpen</h2>
-
+| Year | First   | Second  | Third | Fourth | Challenge   |
+| ---- | ------- | ------- | ----- | ------ | ----------- |
+| 2018 | CYRUS   | Razi    | KN2C   | -      | -           |
 
 
 <h2 style="text-align:center">RemoteCup-Major</h2>

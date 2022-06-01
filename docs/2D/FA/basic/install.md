@@ -17,7 +17,7 @@
 <note type="warning" label="">
 
 
-این آموزش برای نصب سرور و مانیتور پلتفورم شبیه‌سازی دوبعدی فوتبال در سیستم‌عامل **اوبونتو**([ubuntu](https://ubuntu.com)) است. آموزش زیر بر روی نسخه‌های مختلف سیستم‌عامل اوبونتو (از ۱۶.۰۴ الی ۱۹.۰۴) تست شده است.
+این آموزش برای نصب سرور و مانیتور پلتفورم شبیه‌سازی دوبعدی فوتبال در سیستم‌عامل **اوبونتو**([ubuntu](https://ubuntu.com)) است. آموزش زیر بر روی نسخه‌های مختلف سیستم‌عامل اوبونتو (از 16.04 الی 20.04) تست شده است.
 
 </note>
 
@@ -39,7 +39,11 @@ sudo apt-get update
 حال برای نصب شدن وابستگی‌های مورد نیاز سرور دستور زیر را در ترمینال وارد کنید :‌
 
 ```bash
+Ubuntu 16.04:
 sudo apt-get install g++ build-essential libboost-all-dev qt4-dev-tools libaudio-dev libgtk-3-dev libxt-dev bison flex
+Ubuntu 18.04 Or 20.04:
+sudo apt install build-essential automake autoconf libtool flex bison libboost-all-dev
+
 ```
 
 
@@ -63,6 +67,17 @@ cd rcssserver-x.x.x
 ./configure && make
 sudo make install
 ```
+ورژن 17.0.0 و ورژن های بعدی سرور cmake را ساپورت می کنند، .
+اگر CMake ترجیح داده می شود یا با روش بالا به مشکل برخورد کردید، می توانید از طریق دستورات زیر دوباره امتحان کنید:
+```bash
+cd rcssserver-x.x.x
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+```
+
 
 در صورتی که تمامی مراحل با موفقیت طی شود سرور مسابقات به صورت کامل نصب می‌شود و شما میتوانید با زدن دستور زیر سرور را با اجرای یک بازی تست کنید:
 

@@ -1,4 +1,22 @@
-### ساخت باینری در بیس Agent2D
+# ساخت باینری در بیس Agent2D
+
+## باینری چیست؟
+باینری به فایل اجرایی بازیکن‌های تیم شما گفته می‌شود که با اجرای آن کد مربوط به تیم شما اجرا می‌شود.
+
+در مسابقات اصطلاح `باینری استاتیک` به مجموعه فایل‌های اجرایی بازیکن‌های تیم شما گفته می‌شود معمولا این فایل ها در یک پوشه و به صورت فایل آرشیو شده (معمولا `.tar.gz`) می‌باشد.
+
+
+<note type="warning" label="">
+
+توجه کنید که تمام فایل‌هایی که برای اجرای تیم شما لازم است باید در یک پوشه قرار داشته باشند.
+این پوشه در هر مسابقه باید از استاندارد‌های مربوط به آن مسابقه پیروی کند.
+
+</note>
+
+
+
+در این آموزش شما با شیوه‌ی ساختن فایل باینری آشنا می‌شوید.
+
 
 ابتدا فرض می کنیم پوشه تیم شما در آدرس زیر می باشد:
 
@@ -9,13 +27,13 @@
 جهت از بین نرفتن اطلاعات ابتدا پوشه src را در مکان دیگری کپی می نماییم.
 
 ```bash
-cp /home/user/workspace/yourteam/src /home/user/workspace/binary -r
+cp -r /home/user/workspace/yourteam/ ~/team_binary 
 ```
 
 با استفاده از دستور زیر یک پوشه با نام lib در پوشه binary می سازیم.
 
 ```bash
-cd /home/user/workspace/binary
+cd ~/team_binary
 mkdir lib
 ```
 
@@ -36,13 +54,13 @@ mkdir lib
 برای بیس StarterAgent2D یا دانش آموزی:
 
 ```bash
-cp /usr/local/StarterLibRCSC/librcsc* /home/user/workspace/binary/lib
+cp /usr/local/StarterLibRCSC/librcsc* ~/team_binary/lib
 ```
 
 برای بیس Agent2D:
 
 ```bash
-cp /usr/local/lib/librcsc* /home/user/workspace/binary/lib
+cp /usr/local/lib/librcsc* ~/team_binary/lib
 ```
 
 سپس فایل start.sh خود را باز نموده و متغیر LIBPATH در خط 12 را به صورت زیر تغییر دهید:
@@ -51,6 +69,113 @@ cp /usr/local/lib/librcsc* /home/user/workspace/binary/lib
 LIBPATH = './lib/'
 ```
 
-در نهایت در پوشه باینری تمامی فایل های cpp. و h. را پاک نمایید.
+پروژه را دوباره بیلد کرده تا فایل‌های باینری ساخته شوند.
+    
+```bash
+cd ~/team_binary
+make
+```
 
-تقریبا باینری شما آماده می باشد.
+
+در نهایت در پوشه باینری تمامی فایل‌های cpp. و h. و فایل‌های .o را پاک نمایید.
+```bash
+rm **/*.cpp **/*.h **/*.o **/*.rcg **/*.rcl
+```
+
+
+در نهایت فایل آرشیو شده با فرمت `.tar.gz` را از پوشه binary تهیه می کنیم.
+توجه کنید که نام TEAMNAME.tar.gz را با نام تیم خود جایگزین کنید.
+```bash
+tar -czvf TEAMNAME.tar.gz ~/team_binary
+```
+
+
+بر اساس نوع مسابقه ممکن است استاندارد‌های دیگری هم برای باینری تعریف شده باشد که باید در نظر گرفته شود.
+استاندارد کلی برای مسابقات به این صورت است که فایل باینری شما باید در کنار فایلی برای `start` یا `kill` قرار بگیرد.
+
+
+در ادامه استاندارد برخی مسابقات آورده شده است.
+
+
+## استاندارد مسابقات ایران اوپن ۲۰۲۳
+
+1. برای مسابقات ایران اوپن ۲۰۲۳ باینری تیم شما باید در یک فایل آرشیو شده با فرمت `.tar.gz` باشد.
+2. فایل باینری تیم شما باید با نام تیم شما باشد.
+3. فایل `start` مطابق زیر باید در پوشه اصلی فایل آرشیو شده باشد.
+    ```bash
+    #!/bin/sh
+
+    HOST=$1
+    BASEDIR=$2
+    NUM=$3
+
+    LIBPATH=./lib
+    if [ x"$LIBPATH" != x ]; then
+    if [ x"$LD_LIBRARY_PATH" = x ]; then
+        LD_LIBRARY_PATH=$LIBPATH
+    else
+        LD_LIBRARY_PATH=$LIBPATH:$LD_LIBRARY_PATH
+    fi
+    export LD_LIBRARY_PATH
+    fi
+
+
+    teamname="TEAMNAME"
+
+    player="./sample_player"
+    coach="./sample_coach"
+
+    config="./player.conf"
+    coach_config="./coach.conf"
+
+    opt="--player-config ${config}"
+    opt="${opt} -h ${HOST} -t ${teamname}"
+
+    coachopt="--coach-config ${coach_config} --use_team_graphic on"
+    coachopt="${coachopt} -h ${HOST} -t ${teamname}"
+
+    cd $BASEDIR
+
+    case $NUM in
+        1)
+            $player $opt -g
+            ;;
+        12)
+            $coach $coachopt
+            ;;
+        *)
+            $player $opt
+            ;;
+    esac
+    ```
+4. در فایل `start` متغیر `teamname` را با نام تیم خود جایگزین کنید.
+5. میتوانید فایلی با نام `localStartAll` به تیم خود اضافه کرده و با آن تیم خود را تست کنید
+    ```bash
+    #!/bin/sh
+    ./start 127.0.0.1 . 1 &
+    sleep 2
+    ./start 127.0.0.1 . 2  &
+    sleep 0.3
+    ./start 127.0.0.1 . 3  &
+    sleep 0.3
+    ./start 127.0.0.1 . 4  &
+    sleep 0.3
+    ./start 127.0.0.1 . 5  &
+    sleep 0.3
+    ./start 127.0.0.1 . 6  &
+    sleep 0.3
+    ./start 127.0.0.1 . 7  &
+    sleep 0.3
+    ./start 127.0.0.1 . 8  &
+    sleep 0.3
+    ./start 127.0.0.1 . 9  &
+    sleep 0.3
+    ./start 127.0.0.1 . 10 &
+    sleep 0.3
+    ./start 127.0.0.1 . 11 &
+    sleep 0.3
+    ./start 127.0.0.1 . 12 &
+    ```
+6. باینری تیم شما باید زیر ۲۰۰ مگ باشد و نباید هیچ فایلی جز فایل‌های ضروری برای اجرا داخل آن قرار گیرد. (فایل لاگ به طور مثال نباید در فولدر باینری باشد)
+
+

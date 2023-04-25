@@ -192,7 +192,7 @@ sudo make install
 
 ## نصب تیم پایه‌ی Agent2D
 
-برای دانلود تیم پایه‌ی Agent2D یا همان Helios Base به [این](https://osdn.net/projects/rctools/releases/55186) لینک مراجعه کنید. 
+برای دانلود تیم پایه‌ی Agent2D یا همان Helios Base به [این](https://github.com/helios-base/helios-base) لینک مراجعه کنید. 
 
 پس از آن که فایل Agent2D را دانلود کردید حال باید آن را با استفاده از دستورات زیر از حالت فشرده خارج کنید.
 

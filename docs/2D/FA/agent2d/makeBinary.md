@@ -121,6 +121,8 @@ tar -czvf TEAMNAME.tar.gz ~/team_binary
 3. فایل `start` مطابق زیر باید در پوشه اصلی فایل آرشیو شده باشد.
 
 
+برای تیم‌های دانش‌آموزی:
+
 ```bash
 #!/bin/sh
 
@@ -166,6 +168,57 @@ case $NUM in
         $player $opt
         ;;
 esac
+```
+
+
+برای تیم‌های دانشجویی:
+
+```bash
+#!/bin/sh
+
+HOST=$1
+BASEDIR=$2
+NUM=$3
+
+LIBPATH=./lib
+if [ x"$LIBPATH" != x ]; then
+if [ x"$LD_LIBRARY_PATH" = x ]; then
+    LD_LIBRARY_PATH=$LIBPATH
+else
+    LD_LIBRARY_PATH=$LIBPATH:$LD_LIBRARY_PATH
+fi
+export LD_LIBRARY_PATH
+fi
+
+
+teamname="Teamname"
+
+player="./sample_player"
+coach="./sample_coach"
+
+config="./player.conf"
+coach_config="./coach.conf"
+config_dir="./formations-dt"
+opt="--player-config ${config}  --config_dir ${config_dir}"
+opt="${opt} -h ${HOST} -t ${teamname}"
+
+coachopt="--coach-config ${coach_config} --use_team_graphic on"
+coachopt="${coachopt} -h ${HOST} -t ${teamname}"
+
+cd $BASEDIR
+
+case $NUM in
+    1)
+        $player $opt -g
+        ;;
+    12)
+        $coach $coachopt
+        ;;
+    *)
+        $player $opt
+        ;;
+esac
+
 ```
     
     

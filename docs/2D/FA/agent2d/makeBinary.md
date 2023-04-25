@@ -1,5 +1,16 @@
 # ساخت باینری در بیس Agent2D
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eQwX2p5CNFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+> تیم سایرس (Cyrus) - آموزش ساخت باینری استاتیک [YT](https://youtu.be/eQwX2p5CNFI) 
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nLqYelU4sok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+> تیم امپراطور (EMPEROR) - آموزش اضافه کردن پرچم به تیم [YT](https://youtu.be/nLqYelU4sok)
+
+
+
+
 ## باینری چیست؟
 باینری به فایل اجرایی بازیکن‌های تیم شما گفته می‌شود که با اجرای آن کد مربوط به تیم شما اجرا می‌شود.
 

@@ -166,7 +166,7 @@ sudo apt install qtbase5-dev
 
 ## نصب کتابخانه‌ی Librcsc
 
-کتابخانه تیم پایه‌ی Agent2D موسوم به Librcsc را میتوانید از [اینجا](https://osdn.net/projects/rctools/releases/p3777) دانلود کنید. نصب این کتابخانه برای Build کردن کد Agent ضروری است. 
+کتابخانه تیم پایه‌ی Agent2D موسوم به Librcsc را میتوانید از [اینجا](https://github.com/helios-base/librcsc) دانلود کنید. نصب این کتابخانه برای Build کردن کد Agent ضروری است. 
 
 پس از دانلود، باید آن را از حالت فشرده خارج کنید. 
 

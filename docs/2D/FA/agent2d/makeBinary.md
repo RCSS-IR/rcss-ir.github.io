@@ -104,84 +104,84 @@ tar -czvf TEAMNAME.tar.gz ~/team_binary
 3. فایل `start` مطابق زیر باید در پوشه اصلی فایل آرشیو شده باشد.
 
 
-    ```bash
-    #!/bin/sh
+```bash
+#!/bin/sh
 
-    HOST=$1
-    BASEDIR=$2
-    NUM=$3
+HOST=$1
+BASEDIR=$2
+NUM=$3
 
-    LIBPATH=./lib
-    if [ x"$LIBPATH" != x ]; then
-    if [ x"$LD_LIBRARY_PATH" = x ]; then
-        LD_LIBRARY_PATH=$LIBPATH
-    else
-        LD_LIBRARY_PATH=$LIBPATH:$LD_LIBRARY_PATH
-    fi
-    export LD_LIBRARY_PATH
-    fi
+LIBPATH=./lib
+if [ x"$LIBPATH" != x ]; then
+if [ x"$LD_LIBRARY_PATH" = x ]; then
+    LD_LIBRARY_PATH=$LIBPATH
+else
+    LD_LIBRARY_PATH=$LIBPATH:$LD_LIBRARY_PATH
+fi
+export LD_LIBRARY_PATH
+fi
 
 
-    teamname="TEAMNAME"
+teamname="TEAMNAME"
 
-    player="./sample_player"
-    coach="./sample_coach"
+player="./sample_player"
+coach="./sample_coach"
 
-    config="./player.conf"
-    coach_config="./coach.conf"
+config="./player.conf"
+coach_config="./coach.conf"
 
-    opt="--player-config ${config}"
-    opt="${opt} -h ${HOST} -t ${teamname}"
+opt="--player-config ${config}"
+opt="${opt} -h ${HOST} -t ${teamname}"
 
-    coachopt="--coach-config ${coach_config} --use_team_graphic on"
-    coachopt="${coachopt} -h ${HOST} -t ${teamname}"
+coachopt="--coach-config ${coach_config} --use_team_graphic on"
+coachopt="${coachopt} -h ${HOST} -t ${teamname}"
 
-    cd $BASEDIR
+cd $BASEDIR
 
-    case $NUM in
-        1)
-            $player $opt -g
-            ;;
-        12)
-            $coach $coachopt
-            ;;
-        *)
-            $player $opt
-            ;;
-    esac
-    ```
+case $NUM in
+    1)
+        $player $opt -g
+        ;;
+    12)
+        $coach $coachopt
+        ;;
+    *)
+        $player $opt
+        ;;
+esac
+```
     
     
 4. در فایل `start` متغیر `teamname` را با نام تیم خود جایگزین کنید.
 5. میتوانید فایلی با نام `localStartAll` به تیم خود اضافه کرده و با آن تیم خود را تست کنید
 
 
-    ```bash
-    #!/bin/sh
-    ./start 127.0.0.1 . 1 &
-    sleep 2
-    ./start 127.0.0.1 . 2  &
-    sleep 0.3
-    ./start 127.0.0.1 . 3  &
-    sleep 0.3
-    ./start 127.0.0.1 . 4  &
-    sleep 0.3
-    ./start 127.0.0.1 . 5  &
-    sleep 0.3
-    ./start 127.0.0.1 . 6  &
-    sleep 0.3
-    ./start 127.0.0.1 . 7  &
-    sleep 0.3
-    ./start 127.0.0.1 . 8  &
-    sleep 0.3
-    ./start 127.0.0.1 . 9  &
-    sleep 0.3
-    ./start 127.0.0.1 . 10 &
-    sleep 0.3
-    ./start 127.0.0.1 . 11 &
-    sleep 0.3
-    ./start 127.0.0.1 . 12 &
-    ```
+```bash
+#!/bin/sh
+./start 127.0.0.1 . 1 &
+sleep 2
+./start 127.0.0.1 . 2  &
+sleep 0.3
+./start 127.0.0.1 . 3  &
+sleep 0.3
+./start 127.0.0.1 . 4  &
+sleep 0.3
+./start 127.0.0.1 . 5  &
+sleep 0.3
+./start 127.0.0.1 . 6  &
+sleep 0.3
+./start 127.0.0.1 . 7  &
+sleep 0.3
+./start 127.0.0.1 . 8  &
+sleep 0.3
+./start 127.0.0.1 . 9  &
+sleep 0.3
+./start 127.0.0.1 . 10 &
+sleep 0.3
+./start 127.0.0.1 . 11 &
+sleep 0.3
+./start 127.0.0.1 . 12 &
+```
     
     
 6. باینری تیم شما باید زیر ۲۰۰ مگ باشد و نباید هیچ فایلی جز فایل‌های ضروری برای اجرا داخل آن قرار گیرد. (فایل لاگ به طور مثال نباید در فولدر باینری باشد)

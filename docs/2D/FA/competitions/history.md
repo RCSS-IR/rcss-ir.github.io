@@ -43,6 +43,7 @@
 
 | Year | First   | Second  | Third      | Fourth  | Challenge   |
 | ---- | ------- | ------- | ---------- | ------  | ----------- |
+| 2023 | PYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) | Yushan![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)  | R3CESBU![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) |Zina-AI![]()| ??   |
 | 2022 | Yushan![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)  | PYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |BeyondAlice![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png) |HfutEngine![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)| Perspolis![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png),MRL-SSim![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |
 | 2021 | PYRUS![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   | Yushan![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/30px-Flag_of_the_People%27s_Republic_of_China.svg.png)  | Fra-United | Quantum![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png) | Perspolis![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/30px-Flag_of_Iran.svg.png)   |
 | 2020 |         |         |            |         |             |
@@ -66,6 +67,7 @@
 
 | Year | First   | Second  | Third | Fourth | Challenge   |
 | ---- | ------- | ------- | ----- | ------ | ----------- |
+| 2023 | EMPEROR-J    |  CYRUS   | aeteam | Galaxy-Coders  |  IMC/Cyrus-girls/ADT/Galaxy coders           |
 | 2022 | AEteam    |  Cyrus   | DreamTeam | Cyrus-girls  |  GhoGhnos/Emperatour/Cyrus-girls/Hades2D           |
 | 2021 |  CYRUS  |  Hades2D   | Austras2D   | AE TEAM      | -           |
 | 2018 (Asia Pacific) |  AEteam   |  Cyrus   | MS2D |   |  -           |
